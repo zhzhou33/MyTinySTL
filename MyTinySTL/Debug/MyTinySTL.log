@@ -1,0 +1,58 @@
+﻿  main.cpp
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\vector.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\construct.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\typetraits.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\algorithm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\iterator.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\uninitializedfunctions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\vectorimpl.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\deque.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h(276): warning C4018: “<”: 有符号/无符号不匹配
+  c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h(271): note: 编译 类 模板 成员函数 "MyTinySTL::deque<A,MyTinySTL::allocator<T>>::~deque(void)" 时
+          with
+          [
+              T=A
+          ]
+  c:\users\administrator\source\repos\mytinystl\mytinystl\main.cpp(29): note: 参见对正在编译的函数 模板 实例化“MyTinySTL::deque<A,MyTinySTL::allocator<T>>::~deque(void)”的引用
+          with
+          [
+              T=A
+          ]
+  c:\users\administrator\source\repos\mytinystl\mytinystl\main.cpp(29): note: 参见对正在编译的 类 模板 实例化 "MyTinySTL::deque<A,MyTinySTL::allocator<T>>" 的引用
+          with
+          [
+              T=A
+          ]
+c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h(376): warning C4018: “<”: 有符号/无符号不匹配
+  c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h(368): note: 编译 类 模板 成员函数 "void MyTinySTL::deque<A,MyTinySTL::allocator<T>>::clear(void)" 时
+          with
+          [
+              T=A
+          ]
+  c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h(355): note: 参见对正在编译的函数 模板 实例化“void MyTinySTL::deque<A,MyTinySTL::allocator<T>>::clear(void)”的引用
+          with
+          [
+              T=A
+          ]
+  c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h(192): note: 编译 类 模板 成员函数 "void MyTinySTL::deque<A,MyTinySTL::allocator<T>>::init(void)" 时
+          with
+          [
+              T=A
+          ]
+  c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h(306): note: 参见对正在编译的函数 模板 实例化“void MyTinySTL::deque<A,MyTinySTL::allocator<T>>::init(void)”的引用
+          with
+          [
+              T=A
+          ]
+  c:\users\administrator\source\repos\mytinystl\mytinystl\include\dequeimpl.h(231): note: 编译 类 模板 成员函数 "MyTinySTL::deque<A,MyTinySTL::allocator<T>>::deque(void)" 时
+          with
+          [
+              T=A
+          ]
+  c:\users\administrator\source\repos\mytinystl\mytinystl\main.cpp(29): note: 参见对正在编译的函数 模板 实例化“MyTinySTL::deque<A,MyTinySTL::allocator<T>>::deque(void)”的引用
+          with
+          [
+              T=A
+          ]
+  MyTinySTL.vcxproj -> C:\Users\Administrator\source\repos\MyTinySTL\Debug\MyTinySTL.exe
