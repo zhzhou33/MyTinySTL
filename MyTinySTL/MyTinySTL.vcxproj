@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -161,7 +161,11 @@
     <ClInclude Include="include\Construct.h" />
     <ClInclude Include="include\Deque.h" />
     <ClInclude Include="include\DequeImpl.h" />
+    <ClInclude Include="include\Functional.h" />
     <ClInclude Include="include\Iterator.h" />
+    <ClInclude Include="include\List.h" />
+    <ClInclude Include="include\ListImpl.h" />
+    <ClInclude Include="include\Queue.h" />
     <ClInclude Include="include\Stack.h" />
     <ClInclude Include="include\TypeTraits.h" />
     <ClInclude Include="include\UninitializedFunctions.h" />

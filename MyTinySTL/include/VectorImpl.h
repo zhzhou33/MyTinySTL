@@ -288,6 +288,17 @@ namespace MyTinySTL
         finish = start;
     }
 
+	template<class T,class Alloc>
+	void vector<T, Alloc>::swap(vector& v)
+	{
+		if (this != &v)
+		{
+			MyTinySTL::swap(start, v.start);
+			MyTinySTL::swap(finish, v.finish);
+			MyTinySTL::swap(endOfStorage, v.endOfStorage);
+		}
+	}
+
     template <class T, class Alloc>
     void vector<T, Alloc>::pop_back()
     {

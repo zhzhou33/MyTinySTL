@@ -57,5 +57,17 @@
     <ClInclude Include="include\VectorImpl.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\Queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Functional.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ListImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

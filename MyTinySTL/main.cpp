@@ -1,6 +1,7 @@
 ﻿#include "./include/Vector.h"
 #include "./include/Stack.h"
-#include "./include/Deque.h"
+#include "./include/Queue.h"
+#include "./include/List.h"
 #include <iostream>
 using namespace MyTinySTL;
 
@@ -26,12 +27,12 @@ private:
 
 int main()
 {
-	deque<A> dp;
-	A a(100);
-	dp.push_front(a);
-	for (int i = 0; i < 65; i++) {
-		A aa(i);
-		dp.push_back(aa);
-	}
+	list<int> l;
+	for (int i = 0; i < 10; i++)
+		l.push_back(i);
+	for (auto iter = l.begin(); iter != l.end(); ++iter)
+		std::cout << *iter << std::endl;
+	
 	return 0;
+	
 }
