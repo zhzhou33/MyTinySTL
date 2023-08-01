@@ -28,7 +28,7 @@ namespace MyTinySTL
         using reference = T &;
         using const_reference = const T &;
         using size_type = size_t;
-        using difference_type = ptrdiff_t;
+        using difference_type = std::ptrdiff_t;
 
     public:
         static T *allocate();
